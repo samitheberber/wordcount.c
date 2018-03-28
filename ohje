@@ -1,0 +1,20 @@
+== C-ohjelmointi kurssin harjoitustyön dokumentti ==
+
+Kirjoittanut: Sami Saada
+
+= Käyttöohje =
+
+Käännä ohjelma ajamalla 'make' ohjelman päähakemistossa. Käännetyt tiedostot saa puhdistettua ajamalla 'make clean'.
+
+Aja ohjelma seuraavilla tavoilla:
+$ ./wordcount input.file output.file    TAI
+$ ./wordcount input.file                TAI
+$ ./wordcount
+
+Jos ei anna sisääntulotiedostoa, niin luetaan standardisyöttövirrasta, ulostulossa taas standardiulostusvirrasta.
+
+= Testaus =
+
+Ohjelma on testattu kääntämällä vaadittujen parametrien lisäksi optioilla -Wextra -g. Ohjelma on ajettu valgrind ohjelman lävitse.
+
+Muistivuotoja ei ole.
